@@ -1,0 +1,14 @@
+name: CI/CD Pipeline on PR
+
+on:
+  pull request:
+    branches:
+      - main
+
+jobs:
+  build:
+  runs-on: ubuntu-latest
+
+  steps:
+    - name: Do something fun
+      run: echo "Deploying rockets..."
