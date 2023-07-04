@@ -24,4 +24,4 @@ jobs:
         run: echo "Tests running as a demo.."
 
       - name: Launch rockets
-        run: echo "Launching nuclear attack...."
+        run: echo "Launching nuclear attack....."
