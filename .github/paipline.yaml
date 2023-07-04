@@ -3,6 +3,8 @@ name: CI/CD Pipeline on PR
 on:
   pull request:
   types: [opened, reopened]
+  branches:
+    - main
 
 jobs:
   build:
